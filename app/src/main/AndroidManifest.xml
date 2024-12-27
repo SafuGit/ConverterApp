@@ -26,7 +26,7 @@
         <activity android:name=".DistanceActivity" />
         <activity android:name=".WeightActivity" />
         <activity android:name=".TimeActivity" />
-<!--        <activity android:name=".TimeActivity" />-->
+        <activity android:name=".DataActivity" />
 
     </application>
 

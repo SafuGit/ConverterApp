@@ -11,7 +11,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class TemperatureActivity extends AppCompatActivity {
+public class DataActivity extends AppCompatActivity {
 
     private EditText inputField;
     private TextView resultView;
@@ -20,14 +20,14 @@ public class TemperatureActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_temperature);
+        setContentView(R.layout.activity_data);
 
         inputField = findViewById(R.id.inputField);
         resultView = findViewById(R.id.resultView);
         conversionTypeSpinner = findViewById(R.id.conversionTypeSpinner);
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.temperature_conversion_types, R.layout.spinner_layout);
+                R.array.data_conversion_types, R.layout.spinner_layout);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         conversionTypeSpinner.setAdapter(adapter);
 
@@ -88,11 +88,23 @@ public class TemperatureActivity extends AppCompatActivity {
         double result;
 
         switch (conversionType) {
-            case "Celsius to Fahrenheit":
-                result = (inputValue * 9/5) + 32;
+            case "Kilobyte to Megabyte":
+                result = inputValue / 1024; // Example rate
                 break;
-            case "Fahrenheit to Celsius":
-                result = (inputValue - 32) * 5/9;
+            case "Megabyte to Kilobyte":
+                result = inputValue * 1024;
+                break;
+            case "Megabyte to Gigabyte":
+                result = inputValue / 1024;
+                break;
+            case "Gigabyte to Megabyte":
+                result = inputValue * 1024;
+                break;
+            case "Gigabyte to Terrabyte":
+                result = inputValue / 1024;
+                break;
+            case "Terrabyte to Gigabyte":
+                result = inputValue * 1024;
                 break;
             default:
                 resultView.setText("Invalid conversion type.");

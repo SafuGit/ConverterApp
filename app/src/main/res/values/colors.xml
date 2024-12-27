@@ -7,4 +7,5 @@
     <color name="button_distance">#2196F3</color>    <!-- Blue -->
     <color name="button_weight">#9C27B0</color>
     <color name="red">#FF0000</color><!-- Purple -->
+    <color name="primary"> #3B71CA </color>
 </resources>

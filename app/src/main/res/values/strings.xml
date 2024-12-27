@@ -14,25 +14,25 @@
     </string-array>
 
     <string-array name="currency_conversion_types">
-        <item>BDT to EUR</item>
-        <item>EUR to BDT</item>
-
         <item>BDT to USD</item>
         <item>USD to BDT</item>
+
+        <item>BDT to EUR</item>
+        <item>EUR to BDT</item>
 
         <item>BDT to INR</item>
         <item>INR to BDT</item>
     </string-array>
 
     <string-array name="distance_conversion_types">
+        <item>Kilometers to Miles</item>
+        <item>Miles to Kilometers</item>
+
         <item>Kilometers to Meters</item>
         <item>Meters to Kilometers</item>
 
         <item>Meters to Centimeters</item>
         <item>Centimeters to Meters</item>
-
-        <item>Kilometers to Miles</item>
-        <item>Miles to Kilometers</item>
     </string-array>
 
     <string-array name="weight_conversion_types">
@@ -52,6 +52,17 @@
 
         <item>Hours to Days</item>
         <item>Days to Hours</item>
+    </string-array>
+
+    <string-array name="data_conversion_types">
+        <item> Kilobyte to Megabyte </item>
+        <item> Megabyte to Kilobyte </item>
+
+        <item>Megabyte to Gigabyte</item>
+        <item>Gigabyte to Megabyte</item>
+
+        <item>Gigabyte to Terrabyte</item>
+        <item>Terrabyte to Gigabyte</item>
     </string-array>
 
 </resources>
