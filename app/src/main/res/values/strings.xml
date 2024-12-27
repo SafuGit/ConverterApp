@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Converter App</string>
+
+    <string-array name="conversion_types">
+        <item>Kilometers to Miles</item>
+        <item>Miles to Kilometers</item>
+        <item>Celsius to Fahrenheit</item>
+        <item>Fahrenheit to Celsius</item>
+    </string-array>
+
+    <string-array name="temperature_conversion_types">
+        <item>Celsius to Fahrenheit</item>
+        <item>Fahrenheit to Celsius</item>
+    </string-array>
+
+    <string-array name="currency_conversion_types">
+        <item>BDT to EUR</item>
+        <item>EUR to BDT</item>
+
+        <item>BDT to USD</item>
+        <item>USD to BDT</item>
+
+        <item>BDT to INR</item>
+        <item>INR to BDT</item>
+    </string-array>
+
+    <string-array name="distance_conversion_types">
+        <item>Kilometers to Meters</item>
+        <item>Meters to Kilometers</item>
+
+        <item>Meters to Centimeters</item>
+        <item>Centimeters to Meters</item>
+
+        <item>Kilometers to Miles</item>
+        <item>Miles to Kilometers</item>
+    </string-array>
+
+    <string-array name="weight_conversion_types">
+        <item>Kilograms to Pounds</item>
+        <item>Pounds to Kilograms</item>
+
+        <item>Kilograms to Grams</item>
+        <item>Grams to Kilograms</item>
+    </string-array>
+
+</resources>

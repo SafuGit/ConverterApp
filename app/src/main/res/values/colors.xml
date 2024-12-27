@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_temperature">#FF5722</color> <!-- Orange -->
+    <color name="button_currency">#4CAF50</color>    <!-- Green -->
+    <color name="button_distance">#2196F3</color>    <!-- Blue -->
+    <color name="button_weight">#9C27B0</color>     <!-- Purple -->
+</resources>
