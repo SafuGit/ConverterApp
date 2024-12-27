@@ -43,4 +43,15 @@
         <item>Grams to Kilograms</item>
     </string-array>
 
+    <string-array name="time_conversion_types">
+        <item>Seconds to Minutes</item>
+        <item>Minutes to Seconds</item>
+
+        <item>Minutes to Hours</item>
+        <item>Hours to Minutes</item>
+
+        <item>Hours to Days</item>
+        <item>Days to Hours</item>
+    </string-array>
+
 </resources>
