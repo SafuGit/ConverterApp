@@ -14,8 +14,8 @@
     </string-array>
 
     <string-array name="currency_conversion_types">
-        <item>BDT to USD</item>
         <item>USD to BDT</item>
+        <item>BDT to USD</item>
 
         <item>BDT to EUR</item>
         <item>EUR to BDT</item>
@@ -44,8 +44,8 @@
     </string-array>
 
     <string-array name="time_conversion_types">
-        <item>Seconds to Minutes</item>
         <item>Minutes to Seconds</item>
+        <item>Seconds to Minutes</item>
 
         <item>Minutes to Hours</item>
         <item>Hours to Minutes</item>
@@ -55,11 +55,11 @@
     </string-array>
 
     <string-array name="data_conversion_types">
+        <item>Gigabyte to Megabyte</item>
+        <item>Megabyte to Gigabyte</item>
+
         <item> Kilobyte to Megabyte </item>
         <item> Megabyte to Kilobyte </item>
-
-        <item>Megabyte to Gigabyte</item>
-        <item>Gigabyte to Megabyte</item>
 
         <item>Gigabyte to Terrabyte</item>
         <item>Terrabyte to Gigabyte</item>
