@@ -27,7 +27,7 @@ public class CurrencyActivity extends AppCompatActivity {
         conversionTypeSpinner = findViewById(R.id.conversionTypeSpinner);
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.currency_conversion_types, android.R.layout.simple_spinner_item);
+                R.array.currency_conversion_types, R.layout.spinner_layout);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         conversionTypeSpinner.setAdapter(adapter);
 

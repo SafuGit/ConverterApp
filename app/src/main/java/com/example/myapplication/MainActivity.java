@@ -33,6 +33,12 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.weightButton).setOnClickListener(v ->
                 startActivity(new Intent(MainActivity.this, WeightActivity.class)));
+
+        findViewById(R.id.timeButton).setOnClickListener(v ->
+                startActivity(new Intent(MainActivity.this, TimeActivity.class)));
+
+        findViewById(R.id.dataButton).setOnClickListener(v ->
+                startActivity(new Intent(MainActivity.this, DataActivity.class)));
     }
 
     // Example method to update the title dynamically
